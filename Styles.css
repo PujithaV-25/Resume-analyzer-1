@@ -1,0 +1,135 @@
+body{
+  background-color: #e4faf8;
+  text-align: center;
+  box-sizing: border-box;
+}
+.heading{
+  color: #0e042b;
+  font-size: 40px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: underline;
+}
+
+/* Uploading Resume Div Starts */
+
+.upload_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 50px;
+  
+}
+
+.upload_box {
+  border: 2px dashed #0c0c0c;
+  background-color: #98d0d4;
+  color:#000;
+  width: 400px;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.upload_icon{
+  width: 60px;
+  margin-bottom:10px;
+}
+
+.choose_file {
+  text-decoration: underline;
+  color: #3d3e49;
+  cursor: pointer;
+}
+.input_box{
+  font-size: 15px;
+}
+
+.subtext {
+  font-size: 14px;
+  color: #3d3e49;
+  
+}
+
+
+/* Uploading Resume Div Ends */
+
+/* Job Description Div Stats */
+.divv_2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.divv_2 label{
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color:#011017;
+  font-size: 20px;
+}
+
+.divv_2 textarea{
+  width:50%;
+  height: 150px;
+  padding: 0.5rem;
+  resize: vertical;
+  display: block;
+  margin: auto;
+  background-color: #c3e5ff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+/* Job Description Div Ends */
+
+
+/* Result Div Starts */
+.result_div {
+  width:60%;
+  height:200px;
+  padding: 20px;
+  background-color: #d1e9f0;
+  border: 2px solid #9cc0ef;
+  border-radius: 15px;
+  display: block;
+  margin:30px auto;
+
+}
+.result_title{
+  font-size: 22px;
+  color: #011017;
+}
+
+/* Result Div Ends */
+
+
+/* Analyze Button Starts */
+.analyze_btn{
+  margin-top: 20px;
+  padding: 13px;
+  background-color: #06224f;
+  color: white;
+  font-size:20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.analyze_btn:hover{
+  background-color: #3f8ee9;
+  color: #000;
+}
+/* Analyze Button Ends */
+
+
+.loading {
+  margin-top: 15px;
+  color: #555;
+}
+
+
+
+
+
